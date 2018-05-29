@@ -3,17 +3,7 @@ $.getJSON("infos.json",function(data){
 	$.each(data,function(key,value){
 		items.push(value);
 	})
-	$('#clients').click(function(){
-		  	var i;
-  	var opt=$('#clients').find(":selected").text()
-  	switch(opt){
-  		case "Roger":
-  		i=0
-  		break;
-  		case "Denis":
-  		i=1
-  		break;
-  	}
-  $('#affichage').html(`${items[i].nom}<br/>${items[i].prenom}<br/>${items[i].age}<br/>${items[i].profession}<br/>${items[i].email}<br/>${items[i].telephone}`)
+	$('.opti').click(function(){
+  $('#affichage').html(`${items[$(this).attr('value')].nom}<br/>${items[$(this).attr('value')].prenom}<br/>${items[$(this).attr('value')].age}<br/>${items[$(this).attr('value')].profession}<br/>${items[$(this).attr('value')].email}<br/>${items[$(this).attr('value')].telephone}`)
   })
 });
