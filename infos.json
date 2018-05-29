@@ -1,8 +1,18 @@
-{
-	"nom":"Larray",
-	"prenom":"Roger",
-	"âge":"51",
-	"profession":"Plombier",
-	"email":"Roger.lafameuseray@gmail.com",
-	"telephone":"06 66 42 16 18"
-}
+[
+	{
+		"nom":"Larray",
+		"prenom":"Roger",
+		"age":"51",
+		"profession":"Plombier",
+		"email":"Roger.lafameuseray@gmail.com",
+		"telephone":"06 66 42 16 18"
+	},
+	{
+		"nom":"Lebon",
+		"prenom":"Denis",
+		"age":"60",
+		"profession":"Electricien",
+		"email":"tiltedofthistrain@tilt.com",
+		"telephone":"06 66 66 66 66"
+	}
+] 
